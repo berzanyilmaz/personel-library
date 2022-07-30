@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Kitap Ekle"
+        android:id="@+id/kitapekle_toolbar"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_ekle"></item>
+
+    <item
+        android:title="Kitap Güncelle"
+        android:id="@+id/kitapguncelle_toolbar"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_guncelle"></item>
+
+    <item
+        android:title="Kitap Sil"
+        android:id="@+id/kitapsil_toolbar"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_sil"></item>
+
+
+</menu>

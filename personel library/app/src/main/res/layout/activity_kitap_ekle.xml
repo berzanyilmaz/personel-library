@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".kitapEkle_Activity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/corners"
+            android:gravity="center"
+            android:text="  Yeni Kitap Ekle  "
+            android:textSize="30sp"></TextView>
+
+        <RatingBar
+            android:id="@+id/ratingBar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/txt_kitap_id"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/corners"
+            android:drawableLeft="@drawable/ic_id_box"
+            android:gravity="center"
+            android:hint="Kitap Id"></EditText>
+
+        <EditText
+            android:id="@+id/txt_kitap_adi"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/corners"
+            android:drawableLeft="@drawable/ic_baseline_menu_book_24"
+            android:gravity="center"
+            android:hint="Kitap Adı"></EditText>
+
+        <EditText
+            android:id="@+id/txt_kitap_kodu"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/corners"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_aciklama"
+            android:hint="Açıklama"></EditText>
+
+        <Button
+            android:id="@+id/kitap_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/corners"
+            android:gravity="center"
+            android:text="  Kitabı Kaydet  "></Button>
+    </LinearLayout>
+
+</RelativeLayout>
